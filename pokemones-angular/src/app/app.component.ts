@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'poke-root',//<poke-root></poke-root>
+  template: `
+  <app-navbar></app-navbar>
+  <app-sidebar></app-sidebar>
+  <app-dashboard></app-dashboard>
+  `,
+ 
 })
 export class AppComponent {
-  title = 'pokemones-angular';
+  
 }
